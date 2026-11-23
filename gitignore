@@ -1,0 +1,34 @@
+# Réglages personnels de Qt Creator (propres à chaque machine)
+*.pro.user*
+CMakeLists.txt.user*
+*.autosave
+.qtcreator/
+
+# Dossiers de compilation (ne jamais les rendre ni les versionner)
+build/
+build-*/
+*-build-*/
+cmake-build-*/
+
+# Fichiers générés par Qt
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.o
+*.obj
+
+# Exécutables et bibliothèques compilées
+*.exe
+*.so
+*.a
+
+# Bases de données locales de test
+*.db
+*.sqlite
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
